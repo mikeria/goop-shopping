@@ -1,17 +1,15 @@
 import React, { Component } from "react";
-import NavBar from "./components/navbar";
 import Counter from "./components/counter";
-import "./App.css";
 
-class App extends Component {
+class Counters extends Component {
+  state = {};
   render() {
     return (
       <div>
-        <NavBar />
         <Counter />
       </div>
     );
   }
 }
 
-export default App;
+export default Counters;
